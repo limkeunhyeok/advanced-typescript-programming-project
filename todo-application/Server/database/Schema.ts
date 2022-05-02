@@ -18,4 +18,4 @@ export const TodoSchema = new Schema({
   Completed: Boolean,
 });
 
-export const ToDoModel = mongoose.model<ITodoSchema>('todo', TodoSchema, 'todoitems');
+export const TodoModel = mongoose.model<ITodoSchema>('todo', TodoSchema, 'todoitems');
