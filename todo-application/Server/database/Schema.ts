@@ -5,7 +5,7 @@ export interface ITodoSchema extends mongoose.Document {
   Title: string,
   Description: string,
   DueDate: Date,
-  Creation: Date,
+  CreationDate: Date,
   Completed: boolean,
 }
 
@@ -14,7 +14,7 @@ export const TodoSchema = new Schema({
   Title: String,
   Description: String,
   DueDate: Date,
-  Creation: Date,
+  CreationDate: Date,
   Completed: Boolean,
 });
 

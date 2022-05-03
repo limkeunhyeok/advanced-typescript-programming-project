@@ -15,7 +15,7 @@ export class Prefill {
         const todoItem: TodoItem = new TodoItem();
         todoItem.Id = item.Id;
         todoItem.Completed = item.Completed;
-        todoItem.CreationDate = item.Creation;
+        todoItem.CreationDate = item.CreationDate;
         todoItem.DueDate = item.DueDate;
         todoItem.Description = item.Description;
         todoItem.Title = item.Title;
